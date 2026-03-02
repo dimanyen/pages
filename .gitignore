@@ -1,0 +1,44 @@
+node_modules
+dist
+.DS_Store
+*.local
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Production build
+build
+out
+
+# Vite cache
+.vite
+
+# TypeScript
+*.tsbuildinfo
+
+# Env files
+.env
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+*.swp
+
+# Coverage directory
+coverage/
+
+# Parcel cache
+.cache
+
+# Mac system files
+Icon?
+._*
